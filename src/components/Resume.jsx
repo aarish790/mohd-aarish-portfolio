@@ -26,17 +26,17 @@ function Resume() {
           <Zoom in={true}><img className="circle-img1" align="left" src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-0/c0.0.206.206a/p206x206/74240094_2557613224518096_5572545862686474240_o.jpg?_nc_cat=103&_nc_sid=da31f3&_nc_ohc=yC7bdLDLugMAX_RQadg&_nc_ht=scontent.fagr1-1.fna&oh=bb2f81b52190d27b5a573152634a1448&oe=5F19B71D" alt="avatar_img" /></Zoom>
           <h1>MOHD AARISH SIDDIQUI</h1>
           <h3 className="r"><DeveloperModeIcon fontSize="large"></DeveloperModeIcon>Full Stack Web Developer</h3>
-          <p>I'm passionate about web development.I had spend some good time learning the concepts involved in this. I have a keen interest in developing some sites from school time.I want to test my skills and endurance in the cooperate world.This will not only help in increasing my skills but also benefit others who want to learn this and also wanted their website work to be done.</p>
+          <p className="p">I'm passionate about web development.I had spend some good time learning the concepts involved in this. I have a keen interest in developing some sites from school time.I want to test my skills and endurance in the cooperate world.This will not only help in increasing my skills but also benefit others who want to learn this and also wanted their website work to be done.</p>
           <h3 className="r"><HomeIcon fontSize="large"></HomeIcon>Address</h3>
-          <p>H.no: B-32,Purani Colony,Kichha Sugar Company Ltd. Kichha Udham Singh Nagar,Uttarakhand Kichha ,Uttarakhand, 263148</p>
+          <p className="p">H.no: B-32,Purani Colony,Kichha Sugar Company Ltd. Kichha Udham Singh Nagar,Uttarakhand,263148</p>
           <h3 className="r"><PhoneIcon fontSize="large"></PhoneIcon>Phone</h3>
-          <p>7231060520</p>
+          <p className="p">7231060520</p>
           <h3 className="r"><EmailIcon fontSize="large"></EmailIcon>Email</h3>
-          <p>mdaarishsid790@gmail</p>
+          <p className="p">mdaarishsid790@gmail.com</p>
           <h3 className="r"><LinkedInIcon fontSize="large"></LinkedInIcon>LinkedIn</h3>
-          <p>https://www.linkedin.com/in/mohd-aarish-siddiqui-7529541a1</p>
+          <p className="p">https://www.linkedin.com/in/mohd-aarish-siddiqui-7529541a1</p>
           <h3 className="r"><GitHubIcon fontSize="large"></GitHubIcon>{''}Github</h3>
-          <p>https://github.com/aarish790</p>
+          <p className="p">https://github.com/aarish790</p>
 
         </aside>
 

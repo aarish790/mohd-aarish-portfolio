@@ -23,7 +23,7 @@ body {
   flex-wrap: wrap;
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1024px) {
   .wrapper {
       display: grid;
       grid-template-columns: 350px 1fr;
@@ -55,18 +55,7 @@ body {
 
 
 
-/* header {
-  background-color: #f5ba13;
-  margin: auto -16px;
-  padding: 16px 32px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-} */
 
-/* header h1 {
-  color: #fff;
-  font-family: "McLaren", cursive;
-  font-weight: 200;
-} */
 
 footer {
   position: absolute;
@@ -81,71 +70,6 @@ footer p {
   color: black;
   
 }
-/* .note {
-  background: #fff;
-  border-radius: 7px;
-  box-shadow: 0 2px 5px #ccc;
-  padding: 10px;
-  width: 240px;
-  margin: 16px;
-  float: left;
-}
-.note h1 {
-  font-size: 1.1em;
-  margin-bottom: 6px;
-}
-.note p {
-  font-size: 1.1em;
-  margin-bottom: 10px;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-}
-
-.note button {
-  position: relative;
-  float: right;
-  margin-right: 10px;
-  color: #f5ba13;
-  border: none;
-  width: 36px;
-  height: 36px;
-  cursor: pointer;
-  outline: none;
-}
-
-form {
-  position: relative;
-  width: 480px;
-  margin: 30px auto 20px auto;
-  background: #fff;
-  padding: 15px;
-  border-radius: 7px;
-  box-shadow: 0 1px 5px rgb(138, 137, 137);
-}
-form input,
-form textarea {
-  width: 100%;
-  border: none;
-  padding: 4px;
-  outline: none;
-  font-size: 1.2em;
-  font-family: inherit;
-  resize: none;
-}
-form button {
-  position: absolute;
-  right: 18px;
-  bottom: -18px;
-  background: #f5ba13;
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  width: 36px;
-  height: 36px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
-  outline: none;
-} */
 
 nav {
   display: flex;
@@ -357,39 +281,620 @@ nav {
   background-color: #ffffff73;
   padding: 50px
 }
-/* nav ul {
-  list-style: none;
-  padding: 0px;
-}
 
-nav ul li {
-  display: inline-block;
-  margin: 0px 10px;
-}
+@media (max-width: 768px) {
+  
+  .mainheading {
+    font-family:"Raleway", sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: bolder;
+    padding-top: 10px;
+    
 
-nav ul li:first-child {
-  margin-left: 0px;
-}
-
-nav ul li a {
-  color: #fff;
-}
-  */
-
-
-
-
-/* .container {
-  background-color: #282c34;
-}  */
-
-/* body, html {
-  height: 80%;
+    color: white;
   }
-.container {
-background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freecodecamp.org%2Fnews%2Fwant-to-learn-web-development-but-dont-know-where-to-start-478ed62e0e55%2F&psig=AOvVaw1IzDmtt2GABIpdZ3FL0UnE&ust=1593177949446000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIj3ksGIneoCFQAAAAAdAAAAABAD");
-height: 100vh;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-} */ */
+  .para {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+    color: yellow;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .h {
+    font-family: "Times New Roman", Times, serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    margin-bottom: 5px;
+    margin-top: 250px;
+    color: #FF1493;
+    font-weight: bolder;
+    
+    
+  }
+  
+  .circle-img {
+    border-radius: 50%;
+    border: 7x solid #fff;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    right: 0px;
+    padding-right: 0px;
+    
+    
+  }
+
+  .g {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    color: #FF4500;
+    font-weight: bolder;
+    font-size: 28px ;
+
+    
+    
+  }
+  .i {
+    font-family: "Times New Roman", Times, serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #FF1493;
+    font-weight: bolder;
+    font-size: 20px;
+    
+  }
+  .j {
+    font-family: "Times New Roman", Times, serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #FF1493;
+    font-weight: bolder;
+    font-size: 20px;
+    
+  }
+  .Nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding-top: 13px;
+    font-size: 20px;
+    padding-left: 15px;
+    
+
+  }
+  
+
+  footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    height: 1.5px;
+    box-sizing: border-box;
+    
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background: rgb(73, 79, 82);
+    color: white; 
+    padding: 0;
+    margin: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+    
+  }
+    .wrapper {
+      display: -ms-grid;
+      grid-template-columns: 290px 1fr;
+      grid-gap: 1px;
+      background-color: lightblue;
+      text-align: left;
+      
+      
+       
+      
+  }
+
+  aside {
+      align-self: start;
+      font-family: "Times New Roman", Times, serif;
+      color: black;
+      background-color:lightblue;
+      font-size: 20px;
+      text-align: left;
+      padding-left: 0px;
+
+      
+      
+      
+  }
+  main {
+
+    background-color:black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+    
+
+  }
+
+  .r {
+    font-weight: bolder;
+    font-family:"Times New Roman", Times, serif;
+    font-size: xx-large;
+  }
+ 
+  /* .p {
+    padding-left: 1px;
+  } */
+  .circle-img1 {
+    border-radius: 5%;
+    border: 7x solid #fff;
+    width: 145px;
+    height: 145px;
+    /* position: absolute; */
+    left: 70%;
+    
+    padding-top: 55px;
+    
+    
+  }
+  .circle-img2 {
+    border-radius: 5%;
+    border: 7x solid #fff;
+    width: 150px;
+    height: 260px;
+    
+    left: 79%;
+   
+   
+    
+  }
+  .x {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    color: black;
+    font-weight: bolder;
+    font-size: 50px ;
+    
+    
+  }
+  .o {
+    font-family:'Open Sans', sans-serif;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px ;
+  
+  }
+  
+
+    
+    
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  .mainheading {
+    font-family:"Raleway", sans-serif;
+    font-size: 70px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: bolder;
+    padding-top: 10px;
+    
+
+    color: white;
+  }
+  .para {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 50px;
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .h {
+    font-family: "Times New Roman", Times, serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    margin-bottom: 5px;
+    margin-top: 250px;
+    color: #FF1493;
+    font-weight: bolder;
+    
+    
+  }
+  
+  .circle-img {
+    border-radius: 50%;
+    border: 7x solid #fff;
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    right: 0px;
+    padding-right: 0px;
+    
+    
+  }
+
+  .g {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    color: #FF4500;
+    font-weight: bolder;
+    font-size: 30px ;
+
+    
+    
+  }
+  .i {
+    font-family: "Times New Roman", Times, serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #FF1493;
+    font-weight: bolder;
+    font-size: 22px;
+    
+  }
+  .j {
+    font-family: "Times New Roman", Times, serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #FF1493;
+    font-weight: bolder;
+    font-size: 22px;
+    
+  }
+  .Nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding-top: 13px;
+    font-size: 20px;
+    padding-left: 15px;
+    
+
+  }
+  
+
+  footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    height: 1.5px;
+    box-sizing: border-box;
+    
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background: rgb(73, 79, 82);
+    color: white; 
+    padding: 0;
+    margin: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+    
+  }
+    .wrapper {
+      display: grid;
+      grid-template-columns: 340px 1fr;
+      grid-gap: 1px;
+      background-color: lightblue;
+      text-align: left;
+      
+      
+       
+      
+  }
+
+  aside {
+      align-self: start;
+      font-family: "Times New Roman", Times, serif;
+      color: black;
+      background-color:lightblue;
+      font-size: 20px;
+      text-align: left;
+      padding-left: 0px;
+
+      
+      
+      
+  }
+  main {
+
+    background-color:black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+    
+
+  }
+
+  .r {
+    font-weight: bolder;
+    font-family:"Times New Roman", Times, serif;
+    font-size: xx-large;
+  }
+ 
+  /* .p {
+    padding-left: 1px;
+  } */
+  .circle-img1 {
+    border-radius: 50%;
+    border: 7x solid #fff;
+    width: 125px;
+    height: 125px;
+    /* position: absolute; */
+    left: 30%;
+    
+    padding-top: 1px;
+    
+    
+  }
+  .circle-img2 {
+    border-radius: 0%;
+    border: 7x solid #fff;
+    width: 105px;
+    height: 200px;
+    
+    position: absolute;
+    right: 0;
+   
+   
+    
+  }
+  .x {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    color: black;
+    font-weight: bolder;
+    font-size: 50px ;
+    
+    
+  }
+  .o {
+    font-family:'Open Sans', sans-serif;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px ;
+  
+  }
+
+}
+@media (min-width: 1024px) {
+  .mainheading {
+    font-family:"Raleway", sans-serif;
+    font-size: 80px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: bolder;
+    padding-top: 10px;
+    
+
+    color: white;
+  }
+  .para {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 50px;
+    color: yellow;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .h {
+    font-family: "Times New Roman", Times, serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    margin-bottom: 5px;
+    margin-top: 250px;
+    color: #FF1493;
+    font-weight: bolder;
+    
+    
+  }
+  
+  .circle-img {
+    border-radius: 50%;
+    border: 7x solid #fff;
+    width: 290px;
+    height: 290px;
+    position: absolute;
+    right: 0px;
+    padding-right: 0px;
+    
+    
+  }
+
+  .g {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    color: #FF4500;
+    font-weight: bolder;
+    font-size: 35px ;
+
+    
+    
+  }
+  .i {
+    font-family: "Times New Roman", Times, serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #FF1493;
+    font-weight: bolder;
+    font-size: 25px;
+    
+  }
+  .j {
+    font-family: "Times New Roman", Times, serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #FF1493;
+    font-weight: bolder;
+    font-size: 25px;
+    
+  }
+  .Nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding-top: 13px;
+    font-size: 20px;
+    padding-left: 15px;
+    
+
+  }
+  
+
+  footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    height: 1.5px;
+    box-sizing: border-box;
+    
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background: rgb(73, 79, 82);
+    color: white; 
+    padding: 0;
+    margin: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+    
+  }
+    .wrapper {
+      display: grid;
+      grid-template-columns: 340px 1fr;
+      grid-gap: 1px;
+      background-color: lightblue;
+      text-align: left;
+      
+      
+       
+      
+  }
+
+  aside {
+      align-self: start;
+      font-family: "Times New Roman", Times, serif;
+      color: black;
+      background-color:lightblue;
+      font-size: 20px;
+      text-align: left;
+      padding-left: 0px;
+
+      
+      
+      
+  }
+  main {
+
+    background-color:black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+    
+
+  }
+
+  .r {
+    font-weight: bolder;
+    font-family:"Times New Roman", Times, serif;
+    font-size: xx-large;
+  }
+ 
+  /* .p {
+    padding-left: 1px;
+  } */
+  .circle-img1 {
+    border-radius: 50%;
+    border: 7x solid #fff;
+    width: 125px;
+    height: 125px;
+    /* position: absolute; */
+    left: 26%;
+    
+    padding-top: 0px;
+    
+    
+  }
+  .circle-img2 {
+    border-radius: 50%;
+    border: 7x solid #fff;
+    width: 118px;
+    height: 118px;
+    
+    position: absolute;
+    right: 0;
+   
+   
+    
+  }
+  .x {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    color: black;
+    font-weight: bolder;
+    font-size: 50px ;
+    
+    
+  }
+  .o {
+    font-family:'Open Sans', sans-serif;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px ;
+  
+  }
+
+
+}

@@ -21,7 +21,7 @@ function Home() {
         <Zoom in={true}><h1 className="m-3 d-flex justify-content-left" className="g"><big>MOHD AARISH SIDDIQUI</big></h1></Zoom>
         <Zoom in={true}><h4 className="m-3 d-flex justify-content-left" className="i"><i><big>Electronics & Communication 4th year Student,and</big></i></h4></Zoom>
     
-        <Zoom in={true}><h4 className="m-3 d-flex justify-content-left" className="i"><i><big>Full Stack Web Developer</big></i></h4></Zoom>
+        <Zoom in={true}><h4 className="m-3 d-flex justify-content-left" className="j"><i><big>Full Stack Web Developer</big></i></h4></Zoom>
        
         {/* </BorderWrapper> */}
         <Footer />
