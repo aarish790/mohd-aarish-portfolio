@@ -22,36 +22,6 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
 }
-/* 
-@media (min-width: 1024px) {
-  .wrapper {
-      display: grid;
-      grid-template-columns: 350px 1fr;
-      grid-gap: 1px;
-      background-color: lightblue;
-      
-  }
-  
-  aside {
-      align-self: start;
-      font-family: 'Open Sans', sans-serif;
-      color: black;
-      background-color:lightblue;
-      
-  }
-
-  .r {
-    font-weight: bolder;
-    font-family:'Open Sans', sans-serif;
-    font-size: xx-large;
-  }
-  main {
-
-    background-color:black;
-    color: white;
-
-  }
-} */
 
 
 
@@ -282,15 +252,15 @@ nav {
   padding: 50px
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   
   .mainheading {
     font-family:"Raleway", sans-serif;
-    font-size: 80px;
+    font-size: 60px;
     margin-bottom: 10px;
     text-align: left;
     font-weight: bolder;
-    padding-top: 10px;
+    padding-top: 50px;
     
 
     color: white;
@@ -300,14 +270,14 @@ nav {
     margin-bottom: 20px;
     color: crimson;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 35px;
   }
   
   .h {
     font-family: "Times New Roman", Times, serif;
     /* font-family: 'Open Sans', sans-serif; */
     margin-bottom: 5px;
-    margin-top: 300px;
+    margin-top: 400px;
     color: #FF1493;
     font-weight: bolder;
     
@@ -317,8 +287,8 @@ nav {
   .circle-img {
     border-radius: 50%;
     border: 7x solid #fff;
-    width: 270px;
-    height: 270px;
+    width: 300px;
+    height: 300px;
     position: absolute;
     right: 0px;
     padding-right: 0px;
@@ -333,7 +303,7 @@ nav {
     margin-top: 15px;
     color: #FF4500;
     font-weight: bolder;
-    font-size: 36px ;
+    font-size: 45px ;
 
     
     
@@ -345,7 +315,7 @@ nav {
     margin-top: 10px;
     color: #FF1493;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 30px;
     
   }
   .j {
@@ -355,7 +325,7 @@ nav {
     margin-top: 10px;
     color: #FF1493;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 30px;
     
   }
   .Nav-links {
@@ -365,8 +335,8 @@ nav {
     align-items: center;
     list-style: none;
     padding-top: 13px;
-    font-size: 25px;
-    padding-left: 15px;
+    font-size: 30px;
+    padding-left: 25px;
     
 
   }
@@ -441,14 +411,14 @@ nav {
     padding-left: 1px;
   } */
   .circle-img1 {
-    border-radius: 5%;
+    border-radius: 50%;
     border: 7x solid #fff;
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
     /* position: absolute; */
     left: 70%;
     
-    padding-top: 55px;
+ 
     
     
   }
@@ -464,7 +434,7 @@ nav {
     
   }
   .x {
-    /* font-family: 'Open Sans', sans-serif; */
+    
     font-family: "Times New Roman", Times, serif;
     margin-bottom: 5px;
     margin-top: 20px;
@@ -491,7 +461,7 @@ nav {
 
 
 
-@media (min-width: 769px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .mainheading {
     font-family:"Raleway", sans-serif;
     font-size: 70px;
@@ -513,7 +483,7 @@ nav {
   
   .h {
     font-family: "Times New Roman", Times, serif;
-    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 5px;
     margin-top: 250px;
     color: #FF1493;
@@ -535,7 +505,7 @@ nav {
   }
 
   .g {
-    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
     font-family: "Times New Roman", Times, serif;
     margin-bottom: 10px;
     margin-top: 15px;
@@ -548,7 +518,7 @@ nav {
   }
   .i {
     font-family: "Times New Roman", Times, serif;
-    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 10px;
     margin-top: 10px;
     color: #FF1493;
@@ -558,7 +528,7 @@ nav {
   }
   .j {
     font-family: "Times New Roman", Times, serif;
-    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 10px;
     margin-top: 10px;
     color: #FF1493;
@@ -645,15 +615,15 @@ nav {
     font-size: xx-large;
   }
  
-  /* .p {
+  .p {
     padding-left: 1px;
-  } */
+  }
   .circle-img1 {
     border-radius: 50%;
     border: 7x solid #fff;
     width: 125px;
     height: 125px;
-    /* position: absolute; */
+    position: absolute;
     left: 30%;
     
     padding-top: 1px;
@@ -673,7 +643,7 @@ nav {
     
   }
   .x {
-    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
     font-family: "Times New Roman", Times, serif;
     margin-bottom: 5px;
     margin-top: 20px;
@@ -718,7 +688,7 @@ nav {
   
   .h {
     font-family: "Times New Roman", Times, serif;
-    /* font-family: 'Open Sans', sans-serif; */
+    
     margin-bottom: 5px;
     margin-top: 250px;
     color: #FF1493;
@@ -740,7 +710,7 @@ nav {
   }
 
   .g {
-    /* font-family: 'Open Sans', sans-serif; */
+    
     font-family: "Times New Roman", Times, serif;
     margin-bottom: 10px;
     margin-top: 15px;
@@ -752,9 +722,9 @@ nav {
     
   }
   .i {
-    font-family: "Times New Roman", Times, serif;
-    /* font-family: 'Open Sans', sans-serif; */
-    margin-bottom: 10px;
+    font-family: "Times New Roman", Times, serif; 
+    
+    
     margin-top: 10px;
     color: #FF1493;
     font-weight: bolder;
@@ -763,8 +733,7 @@ nav {
   }
   .j {
     font-family: "Times New Roman", Times, serif;
-    /* font-family: 'Open Sans', sans-serif; */
-    margin-bottom: 10px;
+    
     margin-top: 10px;
     color: #FF1493;
     font-weight: bolder;
@@ -783,7 +752,7 @@ nav {
     
 
   }
-  
+   
 
   footer {
     position: absolute;
@@ -850,15 +819,15 @@ nav {
     font-size: xx-large;
   }
  
-  /* .p {
+  .p {
     padding-left: 1px;
-  } */
+  }
   .circle-img1 {
     border-radius: 50%;
     border: 7x solid #fff;
     width: 125px;
     height: 125px;
-    /* position: absolute; */
+    position: absolute;
     left: 26%;
     
     padding-top: 0px;
@@ -877,8 +846,8 @@ nav {
    
     
   }
-  .x {
-    /* font-family: 'Open Sans', sans-serif; */
+  .x { 
+ 
     font-family: "Times New Roman", Times, serif;
     margin-bottom: 5px;
     margin-top: 20px;
@@ -899,4 +868,4 @@ nav {
   }
 
 
-}
+} 

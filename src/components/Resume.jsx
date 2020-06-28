@@ -55,91 +55,92 @@ function Resume() {
         <Zoom in={true}><p>Certification in <big>Python</big> from <big>Appin Technology Lab</big></p></Zoom>
       
         <Zoom in={true}><h3 className="r"><ExtensionIcon fontSize="large"></ExtensionIcon>Skills</h3></Zoom>
-        <p><big>Machine learning</big>  <Rating
+        <p><big>Machine learning</big> <big><Rating
           value={4}
           max={5}
           onChange={(value) => console.log(`Rated with value ${value}`)}
          
-        /><big>Python</big> <Rating
+        /></big>
+        <big>Python</big><big> <Rating
           
           value={4}
           max={5}
           onChange={(value) => console.log(`Rated with value ${value}`)}
          
-        />
-        <big>Java (Netbeans IDE Platform)</big><Rating
+        /></big>
+        <big>Java (Netbeans IDE Platform)</big><big> <Rating
           value={3}
           max={5}
           onChange={(value) => console.log(`Rated with value ${value}`)}
          
-        />
-        <big>HTML</big><Rating
+        /></big>
+        <big>HTML</big><big> <Rating
           value={4}
           max={5}
           onChange={(value) => console.log(`Rated with value ${value}`)}
          
-        /><big>Javascript</big> <Rating
+        /></big><big>Javascript</big> <big> <Rating
           value={4}
           max={5}
           onChange={(value) => console.log(`Rated with value ${value}`)}
          
-        /><big>SQL </big><Rating
+        /></big><big>SQL </big><big> <Rating
           value={4}
           max={5}
           onChange={(value) => console.log(`Rated with value ${value}`)}
          
-        /><big>CSS </big><Rating
+        /></big><big>CSS </big><big> <Rating
           value={3.5}
           max={5}
           onChange={(value) => console.log(`Rated with value ${value}`)}
          
         
-        /><big>C</big><Rating
+        /></big><big>C</big><big> <Rating
           value={2.5}
           max={5}
           onChange={(value) => console.log(`Rated with value ${value}`)}
          
-        /><big>MongoDB</big> <Rating
+        /></big><big>MongoDB</big> <big> <Rating
           value={3.5}
           max={5}
           onChange={(value) => console.log(`Rated with value ${value}`)}
          
-        /> <big>Git version control</big> <Rating
+        /></big> <big>Git version control</big><big>  <Rating
           value={3.5}
           max={5}
           onChange={(value) => console.log(`Rated with value ${value}`)}
          
-        /><big>MERN Stack</big> <Rating
+        /></big><big>MERN Stack</big> <Rating
           value={3.5}
           max={5}
           onChange={(value) => console.log(`Rated with value ${value}`)}
          
-        /><big>Mongoose</big><Rating
+        /><big>Mongoose</big><big> <Rating
           value={3}
           max={5}
           onChange={(value) => console.log(`Rated with value ${value}`)}
          
-        /><big>React</big><Rating
+        /></big><big>React</big><big> <Rating
           value={3.5}
           max={5}
           onChange={(value) => console.log(`Rated with value ${value}`)}
          
-        /><big>Verilog</big><Rating
+        /></big><big>Verilog</big><big> <Rating
           value={3}
           max={5}
           onChange={(value) => console.log(`Rated with value ${value}`)}
          
-        /><big>Matlab</big><Rating
+        /></big><big>Matlab</big><big> <Rating
           value={3.5}
           max={5}
           onChange={(value) => console.log(`Rated with value ${value}`)}
          
-        /><big>LT Spice</big><Rating
+        /></big> <big>LT Spice</big><big> <Rating
           value={3.5}
           max={5}
           onChange={(value) => console.log(`Rated with value ${value}`)}
          
-        /></p>
+        /></big> </p>
       
        
           
