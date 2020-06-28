@@ -22,7 +22,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
 }
-
+/* 
 @media (min-width: 1024px) {
   .wrapper {
       display: grid;
@@ -51,7 +51,7 @@ body {
     color: white;
 
   }
-}
+} */
 
 
 
@@ -286,7 +286,7 @@ nav {
   
   .mainheading {
     font-family:"Raleway", sans-serif;
-    font-size: 40px;
+    font-size: 80px;
     margin-bottom: 10px;
     text-align: left;
     font-weight: bolder;
@@ -298,16 +298,16 @@ nav {
   .para {
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 20px;
-    color: yellow;
+    color: crimson;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 25px;
   }
   
   .h {
     font-family: "Times New Roman", Times, serif;
     /* font-family: 'Open Sans', sans-serif; */
     margin-bottom: 5px;
-    margin-top: 250px;
+    margin-top: 300px;
     color: #FF1493;
     font-weight: bolder;
     
@@ -317,8 +317,8 @@ nav {
   .circle-img {
     border-radius: 50%;
     border: 7x solid #fff;
-    width: 170px;
-    height: 170px;
+    width: 270px;
+    height: 270px;
     position: absolute;
     right: 0px;
     padding-right: 0px;
@@ -333,7 +333,7 @@ nav {
     margin-top: 15px;
     color: #FF4500;
     font-weight: bolder;
-    font-size: 28px ;
+    font-size: 36px ;
 
     
     
@@ -345,7 +345,7 @@ nav {
     margin-top: 10px;
     color: #FF1493;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 25px;
     
   }
   .j {
@@ -355,7 +355,7 @@ nav {
     margin-top: 10px;
     color: #FF1493;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 25px;
     
   }
   .Nav-links {
@@ -365,7 +365,7 @@ nav {
     align-items: center;
     list-style: none;
     padding-top: 13px;
-    font-size: 20px;
+    font-size: 25px;
     padding-left: 15px;
     
 
@@ -396,7 +396,7 @@ nav {
     
   }
     .wrapper {
-      display: -ms-grid;
+      display: -ms-flexbox;
       grid-template-columns: 290px 1fr;
       grid-gap: 1px;
       background-color: lightblue;
@@ -443,8 +443,8 @@ nav {
   .circle-img1 {
     border-radius: 5%;
     border: 7x solid #fff;
-    width: 145px;
-    height: 145px;
+    width: 160px;
+    height: 160px;
     /* position: absolute; */
     left: 70%;
     
@@ -453,12 +453,12 @@ nav {
     
   }
   .circle-img2 {
-    border-radius: 5%;
+    border-radius: 50%;
     border: 7x solid #fff;
     width: 150px;
-    height: 260px;
+    height: 200px;
     
-    left: 79%;
+    left: 82%;
    
    
     
@@ -480,7 +480,7 @@ nav {
     margin-top: 2px;
     color: black;
     font-weight: bolder;
-    font-size: 18px ;
+    font-size: 32px ;
   
   }
   
@@ -694,6 +694,8 @@ nav {
   }
 
 }
+
+
 @media (min-width: 1024px) {
   .mainheading {
     font-family:"Raleway", sans-serif;
