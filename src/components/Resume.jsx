@@ -32,11 +32,11 @@ function Resume() {
           <Zoom in={true}><h3 className="r"><PhoneIcon fontSize="large"></PhoneIcon>Phone</h3></Zoom>
           <Zoom in={true}><p className="p">7231060520</p></Zoom>
           <Zoom in={true}><h3 className="r"><EmailIcon fontSize="large"></EmailIcon>Email</h3></Zoom>
-          <Zoom in={true}><p className="p">mdaarishsid790@gmail.com</p></Zoom>
+          <Zoom in={true}><p className="p">mdaarishsid790@gmail{' '}.com</p></Zoom>
           <Zoom in={true}><h3 className="r"><LinkedInIcon fontSize="large"></LinkedInIcon>LinkedIn</h3></Zoom>
-          <Zoom in={true}><p className="p">https://www.linkedin.com/in/{'   '}mohd-aarish-siddiqui-7529541a1</p></Zoom>
+          <Zoom in={true}><p className="p">https://www.linkedin.com/{' '}in/{'   '}mohd-aarish-siddiqui-7529541a1</p></Zoom>
           <Zoom in={true}><h3 className="r"><GitHubIcon fontSize="large"></GitHubIcon>{''}Github</h3></Zoom>
-          <Zoom in={true}><p className="p">https://github.com/aarish790</p></Zoom>
+          <Zoom in={true}><p className="p">https://github.com/{' '}aarish790</p></Zoom>
 
         </aside>
 
