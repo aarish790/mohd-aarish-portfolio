@@ -95,7 +95,7 @@ nav {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 21px;
+  font-size: 35px;
   opacity: 2;
   border-radius: 10px;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -121,7 +121,7 @@ nav {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
+  font-size: 35px;
   opacity: 2;
   border-radius: 8px;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -694,7 +694,7 @@ nav {
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .mainheading {
     font-family:"Raleway", sans-serif;
-    font-size: 120px;
+    font-size: 100px;
     margin-bottom: 10px;
     text-align: left;
     font-weight: bolder;
@@ -708,17 +708,17 @@ nav {
     margin-bottom: 50px;
     color: yellow;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 45px;
   }
   
   .h {
     font-family: "Times New Roman", Times, serif;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 5px;
-    margin-top: 400px;
+    margin-top: 380px;
     color: #FF1493;
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 53px;
     
     
   }
@@ -726,8 +726,8 @@ nav {
   .circle-img {
     border-radius: 50%;
     border: 7x solid #fff;
-    width: 450px;
-    height: 450px;
+    width: 410px;
+    height: 410px;
     position: absolute;
     right: 0px;
     padding-right: 0px;
@@ -742,7 +742,7 @@ nav {
     margin-top: 15px;
     color: #FF4500;
     font-weight: bolder;
-    font-size: 68px ;
+    font-size: 58px ;
 
     
     
@@ -754,7 +754,7 @@ nav {
     margin-top: 10px;
     color: #FF1493;
     font-weight: bolder;
-    font-size: 58px;
+    font-size: 51px;
     
   }
   .j {
