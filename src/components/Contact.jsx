@@ -18,8 +18,8 @@ function Contact(){
         
         
         <Zoom in={true}><h3 className="x"><big>CONTACT ME:</big></h3></Zoom>
-        <Zoom in={true}><p className="o"><CallIcon fontSize="large"></CallIcon> <big>7231060520</big></p></Zoom>
-        <Zoom in={true}><p className="o"><EmailIcon fontSize="large"></EmailIcon><big>mdaarishsid790@gmail.com</big></p></Zoom>
+        <Zoom in={true}><p className="y"><CallIcon fontSize="large"></CallIcon> <big>7231060520</big></p></Zoom>
+        <Zoom in={true}><p className="y"><EmailIcon fontSize="large"></EmailIcon><big>mdaarishsid790@gmail.com</big></p></Zoom>
       
         
            
