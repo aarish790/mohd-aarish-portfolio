@@ -465,7 +465,7 @@ nav {
 @media only screen and (min-width: 601px) and (max-width: 767px){
   .mainheading {
     font-family:"Raleway", sans-serif;
-    font-size: 75px;
+    font-size: 120px;
     margin-bottom: 10px;
     text-align: left;
     font-weight: bolder;
@@ -479,17 +479,17 @@ nav {
     margin-bottom: 50px;
     color:yellow;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 40px;
   }
   
   .h {
     font-family: "Times New Roman", Times, serif;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 5px;
-    margin-top: 300px;
+    margin-top: 400px;
     color: #FF1493;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 45px;
     
     
   }
@@ -497,8 +497,8 @@ nav {
   .circle-img {
     border-radius: 50%;
     border: 7x solid #fff;
-    width: 240px;
-    height: 240px;
+    width: 350px;
+    height: 350px;
     position: absolute;
     padding-right: 0px;
     right: 0;
@@ -514,7 +514,7 @@ nav {
     margin-top: 15px;
     color: #FF4500;
     font-weight: bolder;
-    font-size: 35px ;
+    font-size: 55px ;
 
     
     
@@ -526,7 +526,7 @@ nav {
     margin-top: 10px;
     color: #FF1493;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 45px;
     
   }
   .j {
@@ -536,7 +536,7 @@ nav {
     margin-top: 10px;
     color: #FF1493;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 45px;
     
   }
   .Nav-links {
@@ -546,7 +546,7 @@ nav {
     align-items: center;
     list-style: none;
     padding-top: 13px;
-    font-size: 20px;
+    font-size: 30px;
     padding-left: 15px;
     
 
@@ -578,7 +578,7 @@ nav {
   }
     .wrapper {
       display: grid;
-      grid-template-columns: 300px 1fr;
+      grid-template-columns: 320px 1fr;
       grid-gap: 1px;
       background-color: lightblue;
       text-align: left;
@@ -619,13 +619,13 @@ nav {
   }
  
   .p {
-    padding-left: 10px;
+    padding-left: 8px;
   }
   .circle-img1 {
     border-radius: 50%;
     border: 7x solid #fff;
-    width: 125px;
-    height: 125px;
+    width: 130px;
+    height: 130px;
     position: absolute;
     left: 42%;
     
@@ -636,8 +636,8 @@ nav {
   .circle-img2 {
     border-radius: 50%;
     border: 7x solid #fff;
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     
     position: absolute;
     right: 0;
@@ -652,7 +652,7 @@ nav {
     margin-top: 20px;
     color: black;
     font-weight: bolder;
-    font-size: 50px ;
+    font-size: 58px ;
     
     
   }
@@ -662,7 +662,7 @@ nav {
     margin-top: 2px;
     color: black;
     font-weight: bolder;
-    font-size: 30px ;
+    font-size: 42px ;
   
   }
 
