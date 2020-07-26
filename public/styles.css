@@ -361,7 +361,7 @@ p {
     width: 120px;
     height: 148px;
     /* position: absolute; */
-    left: 80%;
+    left: 82%;
     padding-top: 53px;
   }
   .circle-img2 {
@@ -535,7 +535,7 @@ p {
     width: 130px;
     height: 130px;
     position: absolute;
-    left: 42%;
+    left: 43.5%;
 
     padding-top: 1px;
   }
@@ -708,10 +708,10 @@ p {
   .circle-img1 {
     border-radius: 50%;
     border: 7x solid #fff;
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
     position: absolute;
-    left: 42%;
+    left: 43%;
 
     padding-top: 1px;
   }
@@ -888,7 +888,7 @@ p {
     width: 125px;
     height: 125px;
     position: absolute;
-    left: 28%;
+    left: 29%;
 
     padding-top: 1px;
   }
@@ -1061,7 +1061,7 @@ p {
     width: 135px;
     height: 135px;
     position: absolute;
-    left: 28%;
+    left: 31%;
 
     padding-top: 0px;
   }

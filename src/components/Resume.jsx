@@ -38,7 +38,10 @@ function Resume() {
           />
         </Zoom>
         <Zoom in={true}>
-          <h1>MOHD AARISH SIDDIQUI</h1>
+          <big>
+            {' '}
+            <h1>MOHD AARISH SIDDIQUI</h1>
+          </big>
         </Zoom>
         <Zoom in={true}>
           <h3 className='r'>
