@@ -1,8 +1,7 @@
 import React from 'react';
-import { borders } from '@material-ui/system';
-import BorderWrapper from 'react-border-wrapper';
+
 import Footer from './Footer';
-import BackspaceIcon from '@material-ui/icons/Backspace';
+
 import Zoom from '@material-ui/core/Zoom';
 
 function Home() {

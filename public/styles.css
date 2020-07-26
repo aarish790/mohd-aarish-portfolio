@@ -9,8 +9,9 @@ html {
 body {
   padding: 0 16px;
 }
+
 .hello {
-  background-color: lightseagreen;
+  background-color: lightseagreen rgba(0, 0, 0, 0.7);
   background-image: url('https://www.ixelcreative.co.uk/wp-content/uploads/2019/03/wordpress-923188_1920-1.jpg');
 }
 

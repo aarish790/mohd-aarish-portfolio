@@ -31,6 +31,18 @@ function Project() {
         unlike them as well. Bcrypt with json web token is used for
         authentication (SignIn/SignUp). It is a Social Network for Engineers.{' '}
         {'     '}
+        <form method='get' action='https://sleepy-dusk-08610.herokuapp.com/'>
+          <Zoom in={true}>
+            <button
+              variant='contained'
+              color='primary'
+              type='submit'
+              className='button1'
+            >
+              Run App Now
+            </button>
+          </Zoom>
+        </form>
         <form
           method='get'
           action='https://github.com/aarish790/Engineers_Connect'
@@ -46,21 +58,6 @@ function Project() {
             </button>
           </Zoom>
         </form>
-        <form method='get' action='https://sleepy-dusk-08610.herokuapp.com/'>
-          <Zoom in={true}>
-            <button
-              variant='contained'
-              color='primary'
-              type='submit'
-              className='button1'
-            >
-              Run App Now
-            </button>
-          </Zoom>
-        </form>
-      </p>
-
-      <p className='o'>
         <ApartmentIcon color='secondary' fontSize='large'></ApartmentIcon>
         <big>
           EARTHQUAKE DAMAGE IDENTIFICATION IN BUILDINGS USING MACHINE LEARNING
