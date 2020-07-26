@@ -4,17 +4,14 @@
     box-sizing: border-box; */
 
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 body {
-  
   padding: 0 16px;
-  
 }
 .hello {
   background-color: lightseagreen;
-  background-image: url("https://www.ixelcreative.co.uk/wp-content/uploads/2019/03/wordpress-923188_1920-1.jpg");
-
+  background-image: url('https://www.ixelcreative.co.uk/wp-content/uploads/2019/03/wordpress-923188_1920-1.jpg');
 }
 
 .main {
@@ -23,22 +20,16 @@ body {
   flex-wrap: wrap;
 }
 
-
-
-
-
 footer {
   position: absolute;
   text-align: center;
   bottom: 0px;
   width: 100%;
   height: 1.5rem;
-  
 }
 
 footer p {
   color: black;
-  
 }
 
 nav {
@@ -47,14 +38,12 @@ nav {
   align-items: center;
   min-height: 8vh;
   background: rgb(73, 79, 82);
-  color: white; 
+  color: white;
   padding: 0;
   margin: 0;
   padding-left: 0px;
   padding-right: 0px;
-  
 }
-
 
 .Nav-links {
   width: 30%;
@@ -67,12 +56,11 @@ nav {
 }
 
 .mainheading {
-  font-family:"Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 80px;
   margin-bottom: 20px;
   text-align: left;
   font-weight: bolder;
-  
 
   color: white;
 }
@@ -91,18 +79,19 @@ nav {
   cursor: pointer;
   margin-top: 10px;
   margin-bottom: 20px;
-  
+
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 44px;
   opacity: 2;
   border-radius: 10px;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-
-
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
-.button:hover {background-color: #3e8e41}
+.button:hover {
+  background-color: #3e8e41;
+}
 
 .button:active {
   background-color: #3e8e41;
@@ -124,11 +113,12 @@ nav {
   font-size: 44px;
   opacity: 2;
   border-radius: 8px;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-
-
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
-.button1:hover {background-color: grey}
+.button1:hover {
+  background-color: grey;
+}
 
 .button1:active {
   background-color: grey;
@@ -137,36 +127,30 @@ nav {
 }
 
 .h {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   /* font-family: 'Open Sans', sans-serif; */
   margin-bottom: 20px;
   margin-top: 200px;
-  color: #FF1493;
+  color: #ff1493;
   font-weight: bolder;
-  
-  
 }
 .g {
   /* font-family: 'Open Sans', sans-serif; */
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   margin-bottom: 20px;
   margin-top: 20px;
-  color: #FF4500;
+  color: #ff4500;
   font-weight: bolder;
-  font-size: 50px ;
-  
-  
+  font-size: 50px;
 }
 .x {
   /* font-family: 'Open Sans', sans-serif; */
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   margin-bottom: 20px;
   margin-top: 20px;
   color: black;
   font-weight: bolder;
-  font-size: 50px ;
-  
-  
+  font-size: 50px;
 }
 .o {
   font-family: 'Open Sans', sans-serif;
@@ -174,18 +158,16 @@ nav {
   margin-top: 20px;
   color: black;
   font-weight: bolder;
-  font-size: 20px ;
-
+  font-size: 20px;
 }
 
 .i {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   /* font-family: 'Open Sans', sans-serif; */
   margin-bottom: 20px;
   margin-top: 20px;
-  color: #FF1493;
+  color: #ff1493;
   font-weight: bolder;
-  
 }
 
 .circle-img {
@@ -196,7 +178,6 @@ nav {
   position: absolute;
   right: 0px;
   padding-right: 10px;
-  
 }
 .circle-img1 {
   border-radius: 50%;
@@ -206,7 +187,6 @@ nav {
   position: absolute;
   left: 0px;
   padding-right: 10px;
-  
 }
 .circle-img2 {
   border-radius: 50%;
@@ -216,21 +196,13 @@ nav {
   position: absolute;
   left: 0px;
   padding-right: 10px;
-  
 }
 
-
-
-
-
-
-
 .jumbotron {
-  background-image: url("https://scontent.fagr1-2.fna.fbcdn.net/v/t1.0-9/48418863_2339872726292148_2696841735031488512_n.jpg?_nc_cat=101&_nc_sid=8bfeb9&_nc_ohc=4HMspSf6ot8AX-CPC7T&_nc_ht=scontent.fagr1-2.fna&oh=b760ca679e5126ca47975ee2f8b7a7b8&oe=5F1C30AB");
+  background-image: url('https://scontent.fagr1-2.fna.fbcdn.net/v/t1.0-9/48418863_2339872726292148_2696841735031488512_n.jpg?_nc_cat=101&_nc_sid=8bfeb9&_nc_ohc=nzTwR5uNn2QAX88ucC_&_nc_ht=scontent.fagr1-2.fna&oh=271ee9cca45bb38a28c91a96fd004226&oe=5F43BDAB');
   background-repeat: no-repeat, repeat;
   background-position: center;
   background-size: cover;
-
 
   /* padding-top: 50px;
   padding-left: 50px;
@@ -243,26 +215,23 @@ nav {
   padding: 100px;
   box-shadow: inset 0px -8px 0 rgba(0, 0, 0, 0.1);
   border-radius: 13px;
-  background-color: #FAFAFA;
-  min-height:500px !important;
-
+  background-color: #fafafa;
+  min-height: 500px !important;
 }
-.jumbotron h1, p {
+.jumbotron h1,
+p {
   background-color: #ffffff73;
-  padding: 50px
+  padding: 50px;
 }
 
 @media only screen and (max-width: 600px) {
-  
-  
   .mainheading {
-    font-family:"Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 60px;
     margin-bottom: 10px;
     text-align: left;
     font-weight: bolder;
     padding-top: 20px;
-    
 
     color: white;
   }
@@ -273,19 +242,17 @@ nav {
     font-weight: bold;
     font-size: 30px;
   }
-  
+
   .h {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     /* font-family: 'Open Sans', sans-serif; */
     margin-bottom: 5px;
     margin-top: 350px;
-    color: #FF1493;
+    color: #ff1493;
     font-weight: bolder;
     font-size: 30px;
-    
-    
   }
-  
+
   .circle-img {
     border-radius: 50%;
     border: 7x solid #fff;
@@ -294,41 +261,34 @@ nav {
     position: absolute;
     right: 0px;
     padding-right: 0px;
-    
-    
   }
 
   .g {
     /* font-family: 'Open Sans', sans-serif; */
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 10px;
     margin-top: 15px;
-    color: #FF4500;
+    color: #ff4500;
     font-weight: bolder;
-    font-size: 38px ;
-
-    
-    
+    font-size: 38px;
   }
   .i {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     /* font-family: 'Open Sans', sans-serif; */
     margin-bottom: 10px;
     margin-top: 10px;
-    color: #FF1493;
+    color: #ff1493;
     font-weight: bolder;
     font-size: 30px;
-    
   }
   .j {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     /* font-family: 'Open Sans', sans-serif; */
     margin-bottom: 10px;
     margin-top: 10px;
-    color: #FF1493;
+    color: #ff1493;
     font-weight: bolder;
     font-size: 30px;
-    
   }
   .Nav-links {
     width: 100%;
@@ -339,10 +299,7 @@ nav {
     padding-top: 13px;
     font-size: 30px;
     padding-left: 0px;
-    
-
   }
-  
 
   footer {
     position: absolute;
@@ -351,7 +308,6 @@ nav {
     width: 100%;
     height: 1.5px;
     box-sizing: border-box;
-    
   }
   nav {
     display: flex;
@@ -359,56 +315,42 @@ nav {
     align-items: center;
     min-height: 8vh;
     background: rgb(73, 79, 82);
-    color: white; 
+    color: white;
     padding: 0;
     margin: 0;
     padding-left: 0px;
     padding-right: 0px;
-    
-    
   }
-    .wrapper {
-      display: -ms-flexbox;
-      grid-template-columns: 300px 1fr;
-      grid-gap: 1px;
-      background-color: lightblue;
-      text-align: left;
-      
-      
-       
-      
+  .wrapper {
+    display: -ms-flexbox;
+    grid-template-columns: 300px 1fr;
+    grid-gap: 1px;
+    background-color: lightblue;
+    text-align: left;
   }
 
   aside {
-      align-self: start;
-      font-family: "Times New Roman", Times, serif;
-      color: black;
-      background-color:lightblue;
-      font-size: 30px;
-      text-align: left;
-      padding-left: 0px;
-
-      
-      
-      
+    align-self: start;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: lightblue;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 0px;
   }
   main {
-
-    background-color:black;
+    background-color: black;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
-    
-    
-
   }
 
   .r {
     font-weight: bolder;
-    font-family:"Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
   }
- 
+
   .p {
     padding-left: 15px;
   }
@@ -420,91 +362,71 @@ nav {
     /* position: absolute; */
     left: 80%;
     padding-top: 53px;
-    
- 
-    
-    
   }
   .circle-img2 {
     border-radius: 0%;
     border: 7x solid #fff;
     width: 170px;
     height: 170px;
-    
+
     left: 80%;
     padding-top: 0px;
-   
-   
-    
   }
   .x {
-    
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 5px;
     margin-top: 20px;
     color: black;
     font-weight: bolder;
-    font-size: 50px ;
-    
-    
+    font-size: 50px;
   }
   .o {
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 2px;
     margin-top: 2px;
     color: black;
     font-weight: bolder;
-    font-size: 32px ;
-  
+    font-size: 32px;
   }
   .y {
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 2px;
     margin-top: 2px;
     color: black;
     font-weight: bolder;
-    font-size: 37px ;
-  
+    font-size: 37px;
   }
-  
-  
-
-    
-    
 }
 
-@media only screen and (min-width: 601px) and (max-width: 767px){
+@media only screen and (min-width: 601px) and (max-width: 767px) {
   .mainheading {
-    font-family:"Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 80px;
     margin-bottom: 10px;
     text-align: left;
     font-weight: bolder;
     padding-top: 10px;
-    
 
     color: white;
   }
   .para {
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 50px;
-    color:yellow;
+    color: yellow;
     font-weight: bold;
     font-size: 40px;
   }
-  
+
   .h {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 5px;
     margin-top: 400px;
-    color: #FF1493;
+    color: #ff1493;
     font-weight: bolder;
     font-size: 45px;
-    
-    
   }
-  
+
   .circle-img {
     border-radius: 50%;
     border: 7x solid #fff;
@@ -513,42 +435,34 @@ nav {
     position: absolute;
     padding-right: 0px;
     right: 0;
-   
-    
-    
   }
 
   .g {
     font-family: 'Open Sans', sans-serif;
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 10px;
     margin-top: 15px;
-    color: #FF4500;
+    color: #ff4500;
     font-weight: bolder;
-    font-size: 50px ;
-
-    
-    
+    font-size: 50px;
   }
   .i {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 10px;
     margin-top: 10px;
-    color: #FF1493;
+    color: #ff1493;
     font-weight: bolder;
     font-size: 45px;
-    
   }
   .j {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 10px;
     margin-top: 10px;
-    color: #FF1493;
+    color: #ff1493;
     font-weight: bolder;
     font-size: 45px;
-    
   }
   .Nav-links {
     width: 100%;
@@ -559,10 +473,7 @@ nav {
     padding-top: 13px;
     font-size: 30px;
     padding-left: 15px;
-    
-
   }
-  
 
   footer {
     position: absolute;
@@ -571,7 +482,6 @@ nav {
     width: 100%;
     height: 1.5px;
     box-sizing: border-box;
-    
   }
   nav {
     display: flex;
@@ -579,56 +489,42 @@ nav {
     align-items: center;
     min-height: 8vh;
     background: rgb(73, 79, 82);
-    color: white; 
+    color: white;
     padding: 0;
     margin: 0;
     padding-left: 0px;
     padding-right: 0px;
-    
-    
   }
-    .wrapper {
-      display: grid;
-      grid-template-columns: 320px 1fr;
-      grid-gap: 1px;
-      background-color: lightblue;
-      text-align: left;
-      
-      
-       
-      
+  .wrapper {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    grid-gap: 1px;
+    background-color: lightblue;
+    text-align: left;
   }
 
   aside {
-      align-self: start;
-      font-family: "Times New Roman", Times, serif;
-      color: black;
-      background-color:lightblue;
-      font-size: 25px;
-      text-align: left;
-      padding-left: 0px;
-
-      
-      
-      
+    align-self: start;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: lightblue;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 0px;
   }
   main {
-
-    background-color:black;
+    background-color: black;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
-    
-    
-
   }
 
   .r {
     font-weight: bolder;
-    font-family:"Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
   }
- 
+
   .p {
     padding-left: 8px;
   }
@@ -639,67 +535,53 @@ nav {
     height: 130px;
     position: absolute;
     left: 42%;
-    
+
     padding-top: 1px;
-    
-    
   }
   .circle-img2 {
     border-radius: 50%;
     border: 7x solid #fff;
     width: 175px;
     height: 175px;
-    
+
     position: absolute;
     right: 0;
-   
-   
-    
   }
   .x {
     font-family: 'Open Sans', sans-serif;
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 5px;
     margin-top: 20px;
     color: black;
     font-weight: bolder;
-    font-size: 50px ;
-    
-    
+    font-size: 50px;
   }
   .o {
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 2px;
     margin-top: 2px;
     color: black;
     font-weight: bolder;
-    font-size: 32px ;
-  
+    font-size: 32px;
   }
   .y {
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 2px;
     margin-top: 2px;
     color: black;
     font-weight: bolder;
-    font-size: 37px ;
-  
+    font-size: 37px;
   }
-  
-
 }
-
-
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .mainheading {
-    font-family:"Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 100px;
     margin-bottom: 10px;
     text-align: left;
     font-weight: bolder;
     padding-top: 10px;
-    
 
     color: white;
   }
@@ -710,19 +592,17 @@ nav {
     font-weight: bold;
     font-size: 45px;
   }
-  
+
   .h {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 5px;
     margin-top: 380px;
-    color: #FF1493;
+    color: #ff1493;
     font-weight: bolder;
     font-size: 48px;
-    
-    
   }
-  
+
   .circle-img {
     border-radius: 50%;
     border: 7x solid #fff;
@@ -731,41 +611,34 @@ nav {
     position: absolute;
     right: 0px;
     padding-right: 0px;
-    
-    
   }
 
   .g {
     font-family: 'Open Sans', sans-serif;
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 10px;
     margin-top: 15px;
-    color: #FF4500;
+    color: #ff4500;
     font-weight: bolder;
-    font-size: 53px ;
-
-    
-    
+    font-size: 53px;
   }
   .i {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 10px;
     margin-top: 10px;
-    color: #FF1493;
+    color: #ff1493;
     font-weight: bolder;
     font-size: 46px;
-    
   }
   .j {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 10px;
     margin-top: 10px;
-    color: #FF1493;
+    color: #ff1493;
     font-weight: bolder;
     font-size: 58px;
-    
   }
   .Nav-links {
     width: 100%;
@@ -776,10 +649,7 @@ nav {
     padding-top: 18px;
     font-size: 54px;
     padding-left: 15px;
-    
-
   }
-  
 
   footer {
     position: absolute;
@@ -788,7 +658,6 @@ nav {
     width: 100%;
     height: 1.5px;
     box-sizing: border-box;
-    
   }
   nav {
     display: flex;
@@ -796,56 +665,42 @@ nav {
     align-items: center;
     min-height: 8vh;
     background: rgb(73, 79, 82);
-    color: white; 
+    color: white;
     padding: 0;
     margin: 0;
     padding-left: 0px;
     padding-right: 0px;
-    
-    
   }
-    .wrapper {
-      display: grid;
-      grid-template-columns: 340px 1fr;
-      grid-gap: 1px;
-      background-color: lightblue;
-      text-align: left;
-      
-      
-       
-      
+  .wrapper {
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    grid-gap: 1px;
+    background-color: lightblue;
+    text-align: left;
   }
 
   aside {
-      align-self: start;
-      font-family: "Times New Roman", Times, serif;
-      color: black;
-      background-color:lightblue;
-      font-size: 26px;
-      text-align: left;
-      padding-left: 0px;
-
-      
-      
-      
+    align-self: start;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: lightblue;
+    font-size: 26px;
+    text-align: left;
+    padding-left: 0px;
   }
   main {
-
-    background-color:black;
+    background-color: black;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 26px;
-    
-    
-
   }
 
   .r {
     font-weight: bolder;
-    font-family:"Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
   }
- 
+
   .p {
     padding-left: 3px;
   }
@@ -856,67 +711,53 @@ nav {
     height: 130px;
     position: absolute;
     left: 38%;
-    
+
     padding-top: 1px;
-    
-    
   }
   .circle-img2 {
     border-radius: 50%;
     border: 7x solid #fff;
     width: 220px;
     height: 220px;
-    
+
     position: absolute;
     right: 0;
-   
-   
-    
   }
   .x {
     font-family: 'Open Sans', sans-serif;
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 5px;
     margin-top: 20px;
     color: black;
     font-weight: bolder;
-    font-size: 60px ;
-    
-    
+    font-size: 60px;
   }
   .o {
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 2px;
     margin-top: 2px;
     color: black;
     font-weight: bolder;
-    font-size: 58px ;
-  
+    font-size: 58px;
   }
   .y {
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 2px;
     margin-top: 2px;
     color: black;
     font-weight: bolder;
-    font-size: 37px ;
-  
+    font-size: 37px;
   }
-  
-
-
-
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
   .mainheading {
-    font-family:"Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 90px;
     margin-bottom: 10px;
     text-align: left;
     font-weight: bolder;
     padding-top: 10px;
-    
 
     color: white;
   }
@@ -928,19 +769,17 @@ nav {
     font-weight: bold;
     font-size: 28px;
   }
-  
+
   .h {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 5px;
     margin-top: 320px;
-    color: #FF1493;
+    color: #ff1493;
     font-weight: bolder;
     font-size: 30px;
-    
-    
   }
-  
+
   .circle-img {
     border-radius: 50%;
     border: 7x solid #fff;
@@ -949,41 +788,34 @@ nav {
     position: absolute;
     right: 0px;
     padding-right: 0px;
-    
-    
   }
 
   .g {
     font-family: 'Open Sans', sans-serif;
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 10px;
     margin-top: 15px;
-    color: #FF4500;
+    color: #ff4500;
     font-weight: bolder;
-    font-size: 40px ;
-
-    
-    
+    font-size: 40px;
   }
   .i {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 10px;
     margin-top: 10px;
-    color: #FF1493;
+    color: #ff1493;
     font-weight: bolder;
     font-size: 30px;
-    
   }
   .j {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 10px;
     margin-top: 10px;
-    color: #FF1493;
+    color: #ff1493;
     font-weight: bolder;
     font-size: 28px;
-    
   }
   .Nav-links {
     width: 100%;
@@ -994,10 +826,7 @@ nav {
     padding-top: 13px;
     font-size: 20px;
     padding-left: 15px;
-    
-
   }
-  
 
   footer {
     position: absolute;
@@ -1006,7 +835,6 @@ nav {
     width: 100%;
     height: 1.5px;
     box-sizing: border-box;
-    
   }
   nav {
     display: flex;
@@ -1014,56 +842,42 @@ nav {
     align-items: center;
     min-height: 8vh;
     background: rgb(73, 79, 82);
-    color: white; 
+    color: white;
     padding: 0;
     margin: 0;
     padding-left: 0px;
     padding-right: 0px;
-    
-    
   }
-    .wrapper {
-      display: grid;
-      grid-template-columns: 360px 1fr;
-      grid-gap: 1px;
-      background-color: lightblue;
-      text-align: left;
-      
-      
-       
-      
+  .wrapper {
+    display: grid;
+    grid-template-columns: 360px 1fr;
+    grid-gap: 1px;
+    background-color: lightblue;
+    text-align: left;
   }
 
   aside {
-      align-self: start;
-      font-family: "Times New Roman", Times, serif;
-      color: black;
-      background-color:lightblue;
-      font-size: 28px;
-      text-align: left;
-      padding-left: 0px;
-
-      
-      
-      
+    align-self: start;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: lightblue;
+    font-size: 28px;
+    text-align: left;
+    padding-left: 0px;
   }
   main {
-
-    background-color:black;
+    background-color: black;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 28px;
-    
-    
-
   }
 
   .r {
     font-weight: bolder;
-    font-family:"Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
   }
- 
+
   .p {
     padding-left: 30px;
   }
@@ -1074,65 +888,53 @@ nav {
     height: 125px;
     position: absolute;
     left: 28%;
-    
+
     padding-top: 1px;
-    
-    
   }
   .circle-img2 {
     border-radius: 50%;
     border: 7x solid #fff;
     width: 160px;
     height: 160px;
-    
+
     position: absolute;
     left: 82%;
-   
-   
-    
   }
   .x {
     font-family: 'Open Sans', sans-serif;
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 5px;
     margin-top: 20px;
     color: black;
     font-weight: bolder;
-    font-size: 62px ;
-    
-    
+    font-size: 62px;
   }
   .o {
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 2px;
     margin-top: 2px;
     color: black;
     font-weight: bolder;
-    font-size: 33px ;
-  
+    font-size: 33px;
   }
   .y {
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 2px;
     margin-top: 2px;
     color: black;
     font-weight: bolder;
-    font-size: 37px ;
-  
+    font-size: 37px;
   }
-  
-
 }
 
 @media only screen and (min-width: 1201px) {
   .mainheading {
-    font-family:"Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 94px;
     margin-bottom: 10px;
     text-align: left;
     font-weight: bolder;
     padding-top: 10px;
-    
 
     color: white;
   }
@@ -1143,19 +945,17 @@ nav {
     font-weight: bold;
     font-size: 30px;
   }
-  
+
   .h {
-    font-family: "Times New Roman", Times, serif;
-    
+    font-family: 'Times New Roman', Times, serif;
+
     margin-bottom: 5px;
     margin-top: 230px;
-    color: #FF1493;
+    color: #ff1493;
     font-weight: bolder;
     font-size: 34px;
-    
-    
   }
-  
+
   .circle-img {
     border-radius: 50%;
     border: 7x solid #fff;
@@ -1164,40 +964,31 @@ nav {
     position: absolute;
     right: 0px;
     padding-right: 0px;
-    
-    
   }
 
   .g {
-    
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 10px;
     margin-top: 15px;
-    color: #FF4500;
+    color: #ff4500;
     font-weight: bolder;
-    font-size: 39px ;
-
-    
-    
+    font-size: 39px;
   }
   .i {
-    font-family: "Times New Roman", Times, serif; 
-    
-    
+    font-family: 'Times New Roman', Times, serif;
+
     margin-top: 10px;
-    color: #FF1493;
+    color: #ff1493;
     font-weight: bolder;
     font-size: 34px;
-    
   }
   .j {
-    font-family: "Times New Roman", Times, serif;
-    
+    font-family: 'Times New Roman', Times, serif;
+
     margin-top: 10px;
-    color: #FF1493;
+    color: #ff1493;
     font-weight: bolder;
     font-size: 34px;
-    
   }
   .Nav-links {
     width: 100%;
@@ -1208,10 +999,7 @@ nav {
     padding-top: 13px;
     font-size: 20px;
     padding-left: 15px;
-    
-
   }
-   
 
   footer {
     position: absolute;
@@ -1220,7 +1008,6 @@ nav {
     width: 100%;
     height: 1.5px;
     box-sizing: border-box;
-    
   }
   nav {
     display: flex;
@@ -1228,56 +1015,42 @@ nav {
     align-items: center;
     min-height: 8vh;
     background: rgb(73, 79, 82);
-    color: white; 
+    color: white;
     padding: 0;
     margin: 0;
     padding-left: 0px;
     padding-right: 0px;
-    
-    
   }
-    .wrapper {
-      display: grid;
-      grid-template-columns: 350px 1fr;
-      grid-gap: 1px;
-      background-color: lightblue;
-      text-align: left;
-      
-      
-       
-      
+  .wrapper {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    grid-gap: 1px;
+    background-color: lightblue;
+    text-align: left;
   }
 
   aside {
-      align-self: start;
-      font-family: "Times New Roman", Times, serif;
-      color: black;
-      background-color:lightblue;
-      font-size: 28px;
-      text-align: left;
-      padding-left: 0px;
-
-      
-      
-      
+    align-self: start;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: lightblue;
+    font-size: 28px;
+    text-align: left;
+    padding-left: 0px;
   }
   main {
-
-    background-color:black;
+    background-color: black;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 28px;
-    
-    
-
   }
 
   .r {
     font-weight: bolder;
-    font-family:"Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
   }
- 
+
   .p {
     padding-left: 15px;
   }
@@ -1288,53 +1061,40 @@ nav {
     height: 135px;
     position: absolute;
     left: 28%;
-    
+
     padding-top: 0px;
-    
-    
   }
   .circle-img2 {
     border-radius: 50%;
     border: 7x solid #fff;
     width: 160px;
     height: 160px;
-    
+
     position: absolute;
     right: 0;
-   
-   
-    
   }
-  .x { 
- 
-    font-family: "Times New Roman", Times, serif;
+  .x {
+    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 5px;
     margin-top: 20px;
     color: black;
     font-weight: bolder;
-    font-size: 68px ;
-    
-    
+    font-size: 68px;
   }
   .o {
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 2px;
     margin-top: 2px;
     color: black;
     font-weight: bolder;
-    font-size: 34px ;
-  
+    font-size: 34px;
   }
   .y {
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 2px;
     margin-top: 2px;
     color: black;
     font-weight: bolder;
-    font-size: 37px ;
-  
+    font-size: 37px;
   }
-  
-
-
-} 
+}
