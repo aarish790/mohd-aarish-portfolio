@@ -24,7 +24,10 @@ function Project() {
       </Zoom>
 
       <p className='o'>
-        <DeveloperModeIcon color='primary' fontSize='large'></DeveloperModeIcon>
+        <DeveloperModeIcon
+          color='secondary'
+          fontSize='large'
+        ></DeveloperModeIcon>
         <big>ENGINEERS CONNECT -</big> A MERN Stack Web app in which you can
         create a student/engineer portfolio, share posts and can get help from
         other students/engineers. You can also add comments and can like and
