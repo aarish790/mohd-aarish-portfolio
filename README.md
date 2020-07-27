@@ -4,11 +4,13 @@ This is my portfolio, which is made using REACT. It is a Front-End Web app, whic
 
 # To run this project on your desktop :-
 
-# Clone this project.
+
+
+## Clone this project.
 ![picture](clone_img.PNG)
 
 
-# After Cloning the project 
+## After Cloning the project 
 ```
 npm install
 npm start
