@@ -18,7 +18,7 @@ function Project() {
         <img
           className='circle-img2'
           align='left'
-          src='https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-9/c0.0.684.684a/s851x315/62177861_2442764206002999_4069313133062127616_o.jpg?_nc_cat=104&_nc_sid=da31f3&_nc_ohc=KgM-wI6gM4kAX8bQExy&_nc_ht=scontent.fagr1-1.fna&oh=21bdd26c8e501b7707f84bb9b46445ef&oe=5F1DB21B'
+          src='https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-9/c0.0.684.684a/s851x315/62062325_2443009499311803_8545787357603823616_o.jpg?_nc_cat=104&_nc_sid=da31f3&_nc_ohc=UJB8bq8YjjgAX8rDhkM&_nc_ht=scontent.fagr1-1.fna&oh=ff445c6c50abba1e1e098b07a21e5a41&oe=5F43F696'
           alt='avatar_img'
         />
       </Zoom>
